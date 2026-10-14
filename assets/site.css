@@ -125,3 +125,15 @@ body{color:var(--ink)}.topbar{background:#111316;color:#e8e9eb}.topbar svg{color
 .portrait-stills{display:flex;gap:14px;margin-top:20px;max-width:405px}.portrait-stills img{width:calc(50% - 7px);height:170px;object-fit:cover;object-position:center 16%;border:1px solid var(--line)}.demo-note{font-size:12px;color:#6b7280}.footer-location address{font-style:normal}
 @media(max-width:1100px){.brand{flex-basis:206px;width:206px}.brand img{width:206px}.nav-inner{gap:15px}.nav-links{gap:13px}}
 @media(max-width:760px){.brand{flex-basis:195px;width:195px}.brand img{width:195px}}
+
+
+/* Mbenya imagery correction: display 206px supplied portraits without aggressive enlargement.
+   The original section grids, typography and desktop/mobile navigation remain unchanged. */
+.mbenya-portrait-panel{min-width:0;min-height:455px;position:relative;display:grid;place-items:center;
+  background:linear-gradient(137deg,#e8e5dc 0%,#f7f5ef 56%,#e3dfd3 100%);border:1px solid #ddd7c7;}
+.mbenya-portrait-panel>img,.intro-picture.mbenya-portrait-panel>img,.decorative-photo.mbenya-portrait-panel>img{
+  display:block;width:min(64%,260px);max-width:260px;height:auto !important;aspect-ratio:1 / 1 !important;
+  object-fit:contain;object-position:center;box-shadow:0 12px 34px rgba(9,23,40,.17);}
+@media (max-width:600px){.mbenya-portrait-panel{min-height:335px}
+  .mbenya-portrait-panel>img,.intro-picture.mbenya-portrait-panel>img,.decorative-photo.mbenya-portrait-panel>img{
+  width:min(67%,235px);max-width:235px;aspect-ratio:1 / 1 !important;}}

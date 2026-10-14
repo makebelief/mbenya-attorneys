@@ -1,13 +1,33 @@
-# Photo and asset sources
+# Photo and asset sources — unique imagery revision
 
-- **User-supplied logo**: `assets/original-logo.png`, as supplied in this conversation. Cropped favicon and header/footer variants are derived from the same file. Rights/permission to publish require client confirmation.
-- **User-supplied photographs**: `assets/portrait-profile.jpg` (526×526 px), `assets/portrait-standing.jpg` and `assets/portrait-robes.jpg` (both 206×206 px); converted WebP copies preserve proportions. Portrait identity and consent require confirmation.
-- **Social preview**: derived locally from the user-supplied brand and portrait.
-- **Illustrative images**: Original Abigail/Roy style Pexels source photography, linked directly as external assets. This is illustrative stock imagery, not a photograph of Mbenya staff. Link availability could not be verified in this offline build.
-- hero: https://images.pexels.com/photos/5668508/pexels-photo-5668508.jpeg?auto=compress&cs=tinysrgb&w=1900 (Pexels; verify current licensing and availability before official publication)
-- criminal: https://images.pexels.com/photos/7875843/pexels-photo-7875843.jpeg?auto=compress&cs=tinysrgb&w=1200 (Pexels; verify current licensing and availability before official publication)
-- arrest: https://images.pexels.com/photos/6077355/pexels-photo-6077355.jpeg?auto=compress&cs=tinysrgb&w=1200 (Pexels; verify current licensing and availability before official publication)
-- detention: https://images.pexels.com/photos/6077859/pexels-photo-6077859.jpeg?auto=compress&cs=tinysrgb&w=1200 (Pexels; verify current licensing and availability before official publication)
-- justice: https://images.pexels.com/photos/8731032/pexels-photo-8731032.jpeg?auto=compress&cs=tinysrgb&w=1200 (Pexels; verify current licensing and availability before official publication)
-- documents: https://images.pexels.com/photos/4427629/pexels-photo-4427629.jpeg?auto=compress&cs=tinysrgb&w=1200 (Pexels; verify current licensing and availability before official publication)
-- consult: https://images.pexels.com/photos/8276198/pexels-photo-8276198.jpeg?auto=compress&cs=tinysrgb&w=1200 (Pexels; verify current licensing and availability before official publication)
+## Firm-specific imagery
+
+- Supplied logo: `assets/original-logo.png`; header, mobile-navigation, footer, favicon and social-preview variants are necessary repeated branding and do not count as content photography.
+- Supplied photograph 1 (blue suit, standing; original 206×206): appears **once**, on **Home** (`assets/portrait-standing.webp`).
+- Supplied photograph 2 (legal robes; original 206×206): appears **once**, on **About Us** (`assets/portrait-robes.webp`).
+- Supplied photograph 3 (white shirt and black vest; original 526×526): appears **once**, on **Our Attorney** (`assets/portrait-profile.webp`).
+- The two 206×206 originals cannot be made natively high-resolution. Their display size is constrained to reduce visible softness. Please supply higher-resolution originals when available.
+- Publishing rights, pictured attorney identity and approval are to be confirmed by the firm.
+
+## Illustrative stock photography — every image ID appears once across the complete website
+
+The following Pexels photo IDs are all different, each allocated to only one visual slot. Stock people are illustrative and **not** described as employees or as the attorney.
+
+| Page / slot | Pexels photo ID | Source page |
+|---|---:|---|
+| Home — hero | 5668508 | https://www.pexels.com/photo/5668508/ |
+| Home — Criminal Law | 7875843 | https://www.pexels.com/photo/7875843/ |
+| Home — Unlawful Arrest | 6077355 | https://www.pexels.com/photo/6077355/ |
+| Home — Unlawful Detention | 6077859 | https://www.pexels.com/photo/6077859/ |
+| Home — Insight 1 | 8731032 | https://www.pexels.com/photo/8731032/ |
+| Home — Insight 2 | 7841810 | https://www.pexels.com/photo/7841810/ |
+| Home — Insight 3 | 4427629 | https://www.pexels.com/photo/4427629/ |
+| Practice Areas — Criminal Law | 5668882 | https://www.pexels.com/photo/5668882/ |
+| Practice Areas — Unlawful Arrest | 8111817 | https://www.pexels.com/photo/8111817/ |
+| Practice Areas — Unlawful Detention | 6170760 | https://www.pexels.com/photo/6170760/ |
+| Insights — Guide 1 | 12911211 | https://www.pexels.com/photo/12911211/ |
+| Insights — Guide 2 | 5060987 | https://www.pexels.com/photo/5060987/ |
+| Insights — Guide 3 | 8730757 | https://www.pexels.com/photo/8730757/ |
+
+Licensing reference: https://www.pexels.com/license/ . Images remain externally hosted, so availability and intended subject must be checked in a browser with network access before final official publication.
+Do not present stock imagery as photographs of actual Mbenya staff or clients. Never use a Pexels ID more than once on any page or between pages.

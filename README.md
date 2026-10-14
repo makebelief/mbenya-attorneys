@@ -28,3 +28,7 @@ These Facebook references were checked through indexed excerpts because Facebook
 
 ## Remaining checks
 Approval by firm; correct legal trading name; attorney's identity/role and portrait rights; exact street address and Google Maps pin; contact telephone re-confirmation; email if any; social URLs; official domain/canonical/OG/sitemap; remote Pexels image loading at publish time; desktop and mobile visual QA in a browser.
+
+## Photo-uniqueness correction
+
+All stock photos now have distinct Pexels IDs, and each of the three supplied attorney photographs appears exactly once on the site, one on each of Home, About and Our Attorney. The repeated logo is the sole exception as mandatory brand furniture. See PHOTO-SOURCES.md for the complete allocation. Two originals are only 206×206 and are displayed in proportionate, moderate-size frames; higher-resolution files are preferred for official launch.
