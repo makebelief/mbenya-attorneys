@@ -49,3 +49,12 @@ Approval by firm; correct legal trading name; attorney's identity/role and portr
 - Contact form now prepares a `mailto:` draft addressed to `mbenyaattorneysinc@gmail.com` with name, phone, practice area and message. Users review and send in their own configured email application. There is no SMTP/backend submission and no promise of automatic delivery.
 - Contact guidance, Privacy and Terms accurately describe the email-draft behaviour; the floating WhatsApp button remains unchanged.
 - Rest of the established site (visual layout, style, top bar, all image files, SEO fields, navigation, addresses and other pages) was preserved.
+
+
+## Social sharing update (V7, October 2026)
+
+- WhatsApp/Facebook/LinkedIn sharing: every page now has absolute Open Graph `og:image`, `og:url`, page title and description, plus dimensions (1200 x 630) and Twitter image tags.
+- Social preview image is `/assets/mbenya-share-preview-v7.jpg` (existing branded composition: Mbenya logo alongside supplied attorney portrait), roughly 105 KB. This asset is separate from the on-page content-image slots; none were changed.
+- This website remains an **independent demo** with `noindex,nofollow,noarchive` in page metadata; `robots.txt` continues blocking general bots but allows named social link-preview crawlers. A shared preview does not imply search indexing is enabled.
+- URLs are currently configured for the live preview host `https://mbenya-attorneys.vercel.app/`. If publishing at another host, update `canonical`, `og:url`, `og:image` and `twitter:image` across all pages.
+- Redeploy with `npx vercel --prod --yes` from the existing linked Vercel project to update the exact published `.vercel.app` host. The URL must be publicly fetchable (no password or authentication) for WhatsApp to show an image. After deployment, paste a fresh URL in WhatsApp. Older shares can retain cached previews.
