@@ -29,6 +29,10 @@ These Facebook references were checked through indexed excerpts because Facebook
 ## Remaining checks
 Approval by firm; correct legal trading name; attorney's identity/role and portrait rights; exact street address and Google Maps pin; contact telephone re-confirmation; email if any; social URLs; official domain/canonical/OG/sitemap; remote Pexels image loading at publish time; desktop and mobile visual QA in a browser.
 
-## Photo-uniqueness correction
-
-All stock photos now have distinct Pexels IDs, and each of the three supplied attorney photographs appears exactly once on the site, one on each of Home, About and Our Attorney. The repeated logo is the sole exception as mandatory brand furniture. See PHOTO-SOURCES.md for the complete allocation. Two originals are only 206×206 and are displayed in proportionate, moderate-size frames; higher-resolution files are preferred for official launch.
+## v3 — High-resolution photos, transparent footer and SEO/mobile checks
+- Replaced Home standing portrait (old 206×206) with client's newer 525×704 original; About robes (old 206×206) with client's newer 662×994 original. Each portrait remains allocated to only one page.
+- Removed the v2 artificial 235–260px image cap. Portraits now fill their original layout panels at responsive widths, using proportional `object-fit:cover` cropping.
+- Created `assets/logo-footer-transparent.png`: white backdrop removed, original supplied logo outlines and gold retained, navy lettering rendered light to remain legible against the dark charcoal footer. Header logo is unchanged.
+- Checked unique page titles and descriptions, LegalService structured data, page-specific social title/description, correct `en-ZA` locale, alt labels, and user interactions. Every content photo remains unique across pages.
+- Preview remains `noindex,nofollow` with `robots.txt` disallow pending official authorisation. **SEO-ready is not the same as indexed.** Once official domain is approved, set absolute canonical URLs, absolute OpenGraph image URLs, domain-aware sitemap and allow crawling after consent. Never insert a fictional live domain.
+- All external Pexels images require visual/network QA before publishing, and no physical office address or personal qualifications are asserted.

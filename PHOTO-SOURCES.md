@@ -3,10 +3,10 @@
 ## Firm-specific imagery
 
 - Supplied logo: `assets/original-logo.png`; header, mobile-navigation, footer, favicon and social-preview variants are necessary repeated branding and do not count as content photography.
-- Supplied photograph 1 (blue suit, standing; original 206×206): appears **once**, on **Home** (`assets/portrait-standing.webp`).
-- Supplied photograph 2 (legal robes; original 206×206): appears **once**, on **About Us** (`assets/portrait-robes.webp`).
+- Supplied photograph 1 (blue suit, standing; new original 525×704): appears **once**, on **Home** (`assets/portrait-standing.webp`).
+- Supplied photograph 2 (legal robes; new original 662×994): appears **once**, on **About Us** (`assets/portrait-robes.webp`).
 - Supplied photograph 3 (white shirt and black vest; original 526×526): appears **once**, on **Our Attorney** (`assets/portrait-profile.webp`).
-- The two 206×206 originals cannot be made natively high-resolution. Their display size is constrained to reduce visible softness. Please supply higher-resolution originals when available.
+- Two higher-resolution originals were provided for Home and About and replace the earlier small 206×206 versions. Their frames fill the established site layout while preserving image proportions.
 - Publishing rights, pictured attorney identity and approval are to be confirmed by the firm.
 
 ## Illustrative stock photography — every image ID appears once across the complete website
@@ -31,3 +31,8 @@ The following Pexels photo IDs are all different, each allocated to only one vis
 
 Licensing reference: https://www.pexels.com/license/ . Images remain externally hosted, so availability and intended subject must be checked in a browser with network access before final official publication.
 Do not present stock imagery as photographs of actual Mbenya staff or clients. Never use a Pexels ID more than once on any page or between pages.
+
+## v3 source assets
+- Home: new uploaded `image(20261014-215750).png` (525×704), converted to `portrait-standing.webp` / `.jpg`.
+- About: new uploaded `image(20261014-215730).png` (662×994), converted to `portrait-robes.webp` / `.jpg`.
+- Footer: uses the original supplied logo design with transparent background and contrasting light lettering on dark grey (`logo-footer-transparent.png`). Header unaffected.

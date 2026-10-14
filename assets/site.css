@@ -127,13 +127,17 @@ body{color:var(--ink)}.topbar{background:#111316;color:#e8e9eb}.topbar svg{color
 @media(max-width:760px){.brand{flex-basis:195px;width:195px}.brand img{width:195px}}
 
 
-/* Mbenya imagery correction: display 206px supplied portraits without aggressive enlargement.
-   The original section grids, typography and desktop/mobile navigation remain unchanged. */
-.mbenya-portrait-panel{min-width:0;min-height:455px;position:relative;display:grid;place-items:center;
-  background:linear-gradient(137deg,#e8e5dc 0%,#f7f5ef 56%,#e3dfd3 100%);border:1px solid #ddd7c7;}
-.mbenya-portrait-panel>img,.intro-picture.mbenya-portrait-panel>img,.decorative-photo.mbenya-portrait-panel>img{
-  display:block;width:min(64%,260px);max-width:260px;height:auto !important;aspect-ratio:1 / 1 !important;
-  object-fit:contain;object-position:center;box-shadow:0 12px 34px rgba(9,23,40,.17);}
-@media (max-width:600px){.mbenya-portrait-panel{min-height:335px}
-  .mbenya-portrait-panel>img,.intro-picture.mbenya-portrait-panel>img,.decorative-photo.mbenya-portrait-panel>img{
-  width:min(67%,235px);max-width:235px;aspect-ratio:1 / 1 !important;}}
+/* Mbenya v3: larger client-supplied originals. Keep original Abigail grid, full-size images and balanced mobile crop. */
+.mbenya-portrait-panel {min-width:0;min-height:0;position:relative;display:block;place-items:unset;background:transparent;border:0;overflow:visible;}
+.mbenya-portrait-panel>img,.intro-picture.mbenya-portrait-panel>img,.decorative-photo.mbenya-portrait-panel>img {
+ display:block;width:100%;max-width:100%;height:auto!important;aspect-ratio:4/4.6!important;
+ object-fit:cover;object-position:center 6%;box-shadow:var(--shadow);}
+/* Transparent high-contrast original emblem lettering on the dark footer. No white tile, padding or background. */
+.site-footer .footer-logo,.site-footer .footer-logo img{background:none!important;border:0!important;box-shadow:none!important;padding:0!important;}
+.site-footer .footer-logo img{display:block;width:min(290px,100%);height:auto;max-height:none;object-fit:contain;object-position:left center;}
+@media(max-width:600px){
+ .mbenya-portrait-panel{min-height:0;}
+ .mbenya-portrait-panel>img,.intro-picture.mbenya-portrait-panel>img,.decorative-photo.mbenya-portrait-panel>img {width:100%;max-width:100%;aspect-ratio:4/4.7!important;object-position:center 4%;}
+ .site-footer .footer-logo img{width:min(260px,100%);}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
