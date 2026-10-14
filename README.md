@@ -14,7 +14,7 @@ Run `python3 -m http.server 8000` from the extracted `mbenya-attorneys` director
 - Phone/WhatsApp `078 198 1383` appears in Mbenya-era Facebook posts. Firm publicly advertises WhatsApp. Confirm it remains current with the firm before official launch.
 - No confirmed attorney full name, qualifications, street office address, company registration, opening hours or actual domain. **None invented.** Portraits supplied by client, not independently identity-verified.
 - The Google Map is a **town/regional map**, NOT the firm’s precise office pin. Street address and exact pin must be verified before public handover.
-- Form remains a client-side **WhatsApp draft launcher** and does NOT send to a backend. The separate clickable email link opens the visitor’s email application at `mbenyaattorneysinc@gmail.com`; no server-side email delivery is implemented.
+- Contact form opens an **email draft** addressed to `mbenyaattorneysinc@gmail.com` using the visitor’s email application (updated in v6). It does **not** send to a backend, and visitors must press Send themselves. The floating WhatsApp button remains a separate contact method.
 - Illustrative photos load from external Pexels URLs. If offline, those do not load. See PHOTO-SOURCES.md.
 - No actual published host is known. Canonical URLs/absolute OG URLs and a filled sitemap must be added **after** choosing an official approved host; no reference-firm URLs have been copied.
 
@@ -41,3 +41,11 @@ Approval by firm; correct legal trading name; attorney's identity/role and portr
 - Client-provided screenshot identifies the firm email as `mbenyaattorneysinc@gmail.com`. It is user-provided and has not been independently mailbox-verified.
 - Added clickable `mailto:` links to every page footer and the Contact page, plus an email alternative beneath the existing WhatsApp enquiry form.
 - Included email in homepage `LegalService` structured data. Left the WhatsApp form functionality and all site images/styles unchanged.
+
+## v6 — Swap Home/About photos and email enquiry
+- Home About/intro section now displays the client-supplied **legal-robes** portrait (`portrait-robes.webp`).
+- About Us now displays the client-supplied **blue-suit** portrait (`portrait-standing.webp`).
+- Attorney profile page retains the third, distinct portrait; **no content photo is repeated between pages**.
+- Contact form now prepares a `mailto:` draft addressed to `mbenyaattorneysinc@gmail.com` with name, phone, practice area and message. Users review and send in their own configured email application. There is no SMTP/backend submission and no promise of automatic delivery.
+- Contact guidance, Privacy and Terms accurately describe the email-draft behaviour; the floating WhatsApp button remains unchanged.
+- Rest of the established site (visual layout, style, top bar, all image files, SEO fields, navigation, addresses and other pages) was preserved.
